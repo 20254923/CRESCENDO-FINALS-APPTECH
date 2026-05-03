@@ -1,0 +1,39 @@
+
+> crescendo@0.0.1 dev
+> vite --host 127.0.0.1
+
+
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m211[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://127.0.0.1:[1m5173[22m/[39m
+[2m12:23:48 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/ResourcesPage.jsx, /src/pages/ProgressPage.jsx, /src/pages/QuizPage.jsx, /src/pages/DashboardPage.jsx, /src/pages/HomePage.jsx, /src/pages/LessonPage.jsx[22m
+[2m12:24:59 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/components/Navbar.jsx, /src/pages/LoginPage.jsx[22m
+[2m12:24:59 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/LoginPage.jsx[22m
+[2m12:25:10 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx[22m
+[2m12:25:10 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.jsx[22m
+[2m12:25:13 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/TeacherDashboard.jsx[22m
+[2m12:30:13 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx[22m
+[2m12:30:13 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.css[22m
+[2m12:35:37 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/components/Navbar.jsx, /src/pages/LoginPage.jsx[22m
+[2m12:35:37 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/LoginPage.jsx[22m
+[2m12:35:37 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.css[22m
+[2m12:36:38 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/ProgressPage.jsx, /src/pages/QuizPage.jsx, /src/pages/DashboardPage.jsx[22m
+[2m12:40:39 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/ProgressPage.jsx, /src/pages/QuizPage.jsx, /src/pages/DashboardPage.jsx[22m
+[2m12:40:39 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/components/Navbar.jsx[22m
+[2m12:40:39 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.css[22m
+[2m12:45:06 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.jsx, /src/components/Navbar.jsx, /src/pages/LoginPage.jsx, /src/pages/ProgressPage.jsx, /src/pages/QuizPage.jsx, /src/pages/DashboardPage.jsx[22m
+[2m12:45:06 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/LoginPage.jsx[22m
+[2m12:45:19 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.css[22m
+[2m12:46:47 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.css[22m
+[2m12:47:37 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.css[22m
+[2m12:48:12 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.css[22m
+[2m12:49:26 AM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mresponsive-check/chrome-profile/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/html/craw_window.html[22m
+[2m12:49:26 AM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mresponsive-check/chrome-profile/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.104.1_0/offscreendocument.html[22m
+[2m12:49:55 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.css[22m
+[2m12:50:12 AM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mresponsive-check/chrome-profile-2/Default/Extensions/nmmhkkegccagdldgiimedpiccmgmieda/1.0.0.6_0/html/craw_window.html[22m
+[2m12:50:12 AM[22m [36m[1m[vite][22m[39m [32mpage reload [39m[2mresponsive-check/chrome-profile-2/Default/Extensions/ghbmnnjooekpmoecnnnilnnbdlolhkhi/1.104.1_0/offscreendocument.html[22m
+[2m12:51:05 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/ProgressPage.jsx, /src/pages/QuizPage.jsx, /src/pages/DashboardPage.jsx, /src/components/Navbar.jsx[22m
+[2m12:51:27 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/LessonPage.jsx[22m
+[2m12:51:38 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/DashboardPage.jsx[22m
+[2m12:51:47 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/pages/QuizPage.jsx[22m
+[2m12:52:02 AM[22m [36m[1m[vite][22m[39m [32mhmr update [39m[2m/src/App.css[22m

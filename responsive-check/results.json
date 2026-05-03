@@ -1,0 +1,182 @@
+[
+  {
+    "sizeName": "phone",
+    "pageName": "home",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "horizontalOverflow": false,
+    "navHeight": 211,
+    "metronomeHeight": 154,
+    "quizActionsPosition": "static",
+    "quizOverlapsMetronome": false
+  },
+  {
+    "sizeName": "phone",
+    "pageName": "lesson",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "horizontalOverflow": false,
+    "navHeight": 211,
+    "metronomeHeight": 154,
+    "quizActionsPosition": "static",
+    "quizOverlapsMetronome": false
+  },
+  {
+    "sizeName": "phone",
+    "pageName": "quiz",
+    "viewport": {
+      "width": 390,
+      "height": 844
+    },
+    "scrollWidth": 390,
+    "clientWidth": 390,
+    "horizontalOverflow": false,
+    "navHeight": 211,
+    "metronomeHeight": 154,
+    "quizActionsPosition": "static",
+    "quizOverlapsMetronome": false
+  },
+  {
+    "sizeName": "tablet",
+    "pageName": "home",
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "scrollWidth": 768,
+    "clientWidth": 768,
+    "horizontalOverflow": false,
+    "navHeight": 133,
+    "metronomeHeight": 72,
+    "quizActionsPosition": "static",
+    "quizOverlapsMetronome": false
+  },
+  {
+    "sizeName": "tablet",
+    "pageName": "lesson",
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "scrollWidth": 768,
+    "clientWidth": 768,
+    "horizontalOverflow": false,
+    "navHeight": 133,
+    "metronomeHeight": 72,
+    "quizActionsPosition": "static",
+    "quizOverlapsMetronome": false
+  },
+  {
+    "sizeName": "tablet",
+    "pageName": "quiz",
+    "viewport": {
+      "width": 768,
+      "height": 1024
+    },
+    "scrollWidth": 768,
+    "clientWidth": 768,
+    "horizontalOverflow": false,
+    "navHeight": 133,
+    "metronomeHeight": 72,
+    "quizActionsPosition": "sticky",
+    "quizOverlapsMetronome": false
+  },
+  {
+    "sizeName": "laptop",
+    "pageName": "home",
+    "viewport": {
+      "width": 1366,
+      "height": 768
+    },
+    "scrollWidth": 1351,
+    "clientWidth": 1351,
+    "horizontalOverflow": false,
+    "navHeight": 72,
+    "metronomeHeight": 72,
+    "quizActionsPosition": "static",
+    "quizOverlapsMetronome": false
+  },
+  {
+    "sizeName": "laptop",
+    "pageName": "lesson",
+    "viewport": {
+      "width": 1366,
+      "height": 768
+    },
+    "scrollWidth": 1351,
+    "clientWidth": 1351,
+    "horizontalOverflow": false,
+    "navHeight": 72,
+    "metronomeHeight": 72,
+    "quizActionsPosition": "static",
+    "quizOverlapsMetronome": false
+  },
+  {
+    "sizeName": "laptop",
+    "pageName": "quiz",
+    "viewport": {
+      "width": 1366,
+      "height": 768
+    },
+    "scrollWidth": 1351,
+    "clientWidth": 1351,
+    "horizontalOverflow": false,
+    "navHeight": 72,
+    "metronomeHeight": 72,
+    "quizActionsPosition": "sticky",
+    "quizOverlapsMetronome": false
+  },
+  {
+    "sizeName": "desktop",
+    "pageName": "home",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "scrollWidth": 1905,
+    "clientWidth": 1905,
+    "horizontalOverflow": false,
+    "navHeight": 72,
+    "metronomeHeight": 72,
+    "quizActionsPosition": "static",
+    "quizOverlapsMetronome": false
+  },
+  {
+    "sizeName": "desktop",
+    "pageName": "lesson",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "scrollWidth": 1905,
+    "clientWidth": 1905,
+    "horizontalOverflow": false,
+    "navHeight": 72,
+    "metronomeHeight": 72,
+    "quizActionsPosition": "static",
+    "quizOverlapsMetronome": false
+  },
+  {
+    "sizeName": "desktop",
+    "pageName": "quiz",
+    "viewport": {
+      "width": 1920,
+      "height": 1080
+    },
+    "scrollWidth": 1905,
+    "clientWidth": 1905,
+    "horizontalOverflow": false,
+    "navHeight": 72,
+    "metronomeHeight": 72,
+    "quizActionsPosition": "sticky",
+    "quizOverlapsMetronome": false
+  }
+]
