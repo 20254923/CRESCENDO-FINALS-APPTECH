@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { login, loginDemo, register, resetLocalDemoData } from '../utils/auth.js';
 
 const initialFields = {
@@ -21,6 +22,7 @@ function isValidEmail(email) {
 }
 
 export default function LoginPage() {
+  const navigate = useNavigate();
   const [mode, setMode] = useState('login');
   const [fields, setFields] = useState(initialFields);
   const [errors, setErrors] = useState({});
@@ -99,7 +101,7 @@ export default function LoginPage() {
         login({ email: fields.email, password: fields.password });
       }
 
-      window.location.assign('/');
+      navigate('/', { replace: true });
     } catch (caughtError) {
       setErrors({ [caughtError.field || 'form']: caughtError.message });
     }
@@ -107,7 +109,7 @@ export default function LoginPage() {
 
   const handleDemoLogin = () => {
     loginDemo();
-    window.location.assign('/');
+    navigate('/', { replace: true });
   };
 
   const handleResetLocalData = () => {
