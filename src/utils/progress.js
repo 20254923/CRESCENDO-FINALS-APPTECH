@@ -43,6 +43,7 @@ export function getInstrumentProgress(instrument) {
       advanced: {},
       lessonNotes: {},
       reviewLessons: {},
+      quizHistory: {},
     };
     saveProgress(progress);
   }
@@ -59,6 +60,10 @@ export function getInstrumentProgress(instrument) {
 
   if (!progress[instrument].reviewLessons) {
     progress[instrument].reviewLessons = {};
+  }
+
+  if (!progress[instrument].quizHistory) {
+    progress[instrument].quizHistory = {};
   }
 
   return progress[instrument];
@@ -128,6 +133,29 @@ export function toggleLessonReview(instrument, lessonId) {
   progress[instrument] = instrumentProgress;
   saveProgress(progress);
   return nextValue;
+}
+
+export function recordQuizAttempt(instrument, lessonId, attempt) {
+  const progress = loadProgress();
+  const instrumentProgress = getInstrumentProgress(instrument);
+  const history = instrumentProgress.quizHistory[lessonId] || [];
+  const nextHistory = [
+    {
+      ...attempt,
+      attemptedAt: new Date().toISOString(),
+    },
+    ...history,
+  ].slice(0, 8);
+
+  instrumentProgress.quizHistory[lessonId] = nextHistory;
+  progress[instrument] = instrumentProgress;
+  saveProgress(progress);
+  return nextHistory;
+}
+
+export function getQuizHistory(instrument, lessonId) {
+  const instrumentProgress = getInstrumentProgress(instrument);
+  return instrumentProgress.quizHistory?.[lessonId] || [];
 }
 
 export function isTierUnlocked(instrument, tier) {

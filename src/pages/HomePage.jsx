@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { INSTRUMENTS } from '../data/data.js';
+import { getStudentProgressSummary, getStudentRank } from '../utils/progress.js';
 
 const instrumentImages = {
   guitar: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&w=900&q=80',
@@ -12,14 +13,45 @@ const instrumentImages = {
 
 export default function HomePage() {
   const navigate = useNavigate();
+  const progress = getStudentProgressSummary();
+  const rank = getStudentRank();
 
   return (
-    <section className="page-stack">
-      <header className="section-heading">
-        <p className="eyebrow">Instrument Studios</p>
-        <h1>Choose your discipline.</h1>
-        <p>Each studio contains tiered lessons, technical briefs, visual references, and examinations.</p>
+    <section className="home-page page-stack">
+      <header className="home-hero">
+        <div className="home-hero__content">
+          <p className="eyebrow">Instrument Studios</p>
+          <h1>Choose your discipline.</h1>
+          <p>
+            A private black-and-gold academy for self-paced lessons, cinematic briefs,
+            examination review, and saved practice progress.
+          </p>
+          <div className="home-hero__actions">
+            <button className="btn btn-primary" type="button" onClick={() => navigate('/progress')}>
+              View Progress
+            </button>
+            <button className="btn btn-ghost" type="button" onClick={() => navigate('/resources')}>
+              Explore Resources
+            </button>
+          </div>
+        </div>
+
+        <div className="home-hero__panel glass-card">
+          <p className="eyebrow">Current Standing</p>
+          <strong>{rank.title}</strong>
+          <span>{progress.done}/{progress.total} lessons passed</span>
+          <div className="hero-progress-track">
+            <div style={{ width: `${progress.percent}%` }} />
+          </div>
+        </div>
       </header>
+
+      <div className="studio-strip" aria-label="Academy highlights">
+        <span>54 verified lessons</span>
+        <span>Saved notes</span>
+        <span>Quiz history</span>
+        <span>Per-account progress</span>
+      </div>
 
       <div className="instrument-grid">
         {INSTRUMENTS.map((instrument) => (
