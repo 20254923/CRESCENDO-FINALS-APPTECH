@@ -25,6 +25,10 @@ Recommended settings:
 
 For client-side routing, configure your host to fallback all routes to `index.html`.
 
+This app uses hash routing in production-friendly URLs, which is safest for GitHub Pages:
+
+`https://20254923.github.io/CRESCENDO-FINALS-APPTECH/#/`
+
 ## Backend Later
 
 The included backend scaffold is not required for the static app. Use it later when you are ready to persist accounts and progress across devices.

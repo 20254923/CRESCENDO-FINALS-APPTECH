@@ -24,6 +24,10 @@ npm run dev
 
 Open `http://127.0.0.1:5173/`.
 
+On GitHub Pages, routes use hash URLs so refresh, login, and logout work reliably:
+
+`https://20254923.github.io/CRESCENDO-FINALS-APPTECH/#/login`
+
 ## Build
 
 ```bash
