@@ -46,13 +46,6 @@ export default function HomePage() {
         </div>
       </header>
 
-      <div className="studio-strip" aria-label="Academy highlights">
-        <span>54 verified lessons</span>
-        <span>Saved notes</span>
-        <span>Quiz history</span>
-        <span>Per-account progress</span>
-      </div>
-
       <div className="instrument-grid">
         {INSTRUMENTS.map((instrument) => (
           <button

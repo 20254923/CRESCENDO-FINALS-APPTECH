@@ -355,28 +355,6 @@ p {
   background: linear-gradient(90deg, var(--gold), var(--gold-bright));
 }
 
-.studio-strip {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 12px;
-}
-
-.studio-strip span {
-  min-height: 48px;
-  display: grid;
-  place-items: center;
-  padding: 0 12px;
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  color: var(--gold);
-  background: rgba(10, 10, 10, 0.58);
-  font-size: 0.78rem;
-  font-weight: 900;
-  text-align: center;
-  text-transform: uppercase;
-  backdrop-filter: blur(10px);
-}
-
 .login-page {
   display: grid;
   min-height: calc(100vh - 64px);
@@ -1389,8 +1367,7 @@ p {
   }
 
   .hero-stat-grid,
-  .option-grid,
-  .studio-strip {
+  .option-grid {
     grid-template-columns: 1fr;
   }
 
