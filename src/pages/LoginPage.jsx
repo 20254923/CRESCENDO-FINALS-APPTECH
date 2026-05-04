@@ -1,6 +1,6 @@
 import { useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { login, loginDemo, register, resetLocalDemoData } from '../utils/auth.js';
+import { login, loginDemo, register } from '../utils/auth.js';
 
 const initialFields = {
   username: '',
@@ -26,7 +26,6 @@ export default function LoginPage() {
   const [mode, setMode] = useState('login');
   const [fields, setFields] = useState(initialFields);
   const [errors, setErrors] = useState({});
-  const [status, setStatus] = useState('');
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
 
@@ -35,13 +34,11 @@ export default function LoginPage() {
   const updateField = (field, value) => {
     setFields((current) => ({ ...current, [field]: value }));
     setErrors((current) => ({ ...current, [field]: '', form: '' }));
-    setStatus('');
   };
 
   const switchMode = (nextMode) => {
     setMode(nextMode);
     setErrors({});
-    setStatus('');
   };
 
   const validate = () => {
@@ -112,16 +109,6 @@ export default function LoginPage() {
     navigate('/', { replace: true });
   };
 
-  const handleResetLocalData = () => {
-    const confirmed = window.confirm('Reset local accounts, demo progress, and saved lesson progress in this browser?');
-    if (!confirmed) return;
-
-    resetLocalDemoData();
-    setFields(initialFields);
-    setErrors({});
-    setStatus('Local demo data has been reset.');
-  };
-
   return (
     <section className="login-page">
       <div className="split-shell login-split">
@@ -135,7 +122,7 @@ export default function LoginPage() {
           <div className="hero-stat-grid">
             <div>
               <strong>54</strong>
-              <span>Lessons</span>
+              <span>Verified lessons</span>
             </div>
             <div>
               <strong>6</strong>
@@ -144,6 +131,10 @@ export default function LoginPage() {
             <div>
               <strong>70%</strong>
               <span>Passing Score</span>
+            </div>
+            <div>
+              <strong>1:1</strong>
+              <span>Per-account progress</span>
             </div>
           </div>
         </aside>
@@ -241,7 +232,6 @@ export default function LoginPage() {
           )}
 
           {errors.form && <p className="form-error">{errors.form}</p>}
-          {status && <p className="form-success">{status}</p>}
 
           <button className="btn btn-primary" type="submit">
             {mode === 'register' ? 'Create Student Account' : 'Sign In'}
@@ -252,10 +242,6 @@ export default function LoginPage() {
               Continue with Demo Account
             </button>
           )}
-
-          <button className="reset-data-button" type="button" onClick={handleResetLocalData}>
-            Reset local demo data
-          </button>
         </form>
       </div>
     </section>
