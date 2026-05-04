@@ -80,7 +80,6 @@ export const login = ({ email, password }) => {
 
 export const logout = () => {
   localStorage.removeItem(CURRENT_USER_KEY);
-  window.location.href = `${import.meta.env.BASE_URL}login`;
 };
 
 export const loginDemo = () => {
