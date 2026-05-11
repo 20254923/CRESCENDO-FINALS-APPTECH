@@ -1,5 +1,3 @@
-const DIAGRAM_BASE = `${import.meta.env?.BASE_URL ?? '/'}diagrams/`;
-
 export const INSTRUMENTS = [
   { id: 'guitar', name: 'Guitar', icon: '🎸', sub: '6 strings, endless styles' },
   { id: 'piano', name: 'Piano', icon: '🎹', sub: 'Keys to music theory' },
@@ -30,7 +28,7 @@ export const INSTRUMENT_DATA = {
           'The bridge anchors the strings and transfers vibration into the body, while tuning pegs on the headstock keep each string in tune. Proper setup makes the instrument easier to play and sound better.'
         ],
         videoUrl: 'https://www.youtube.com/embed/BBz-Jyr23M4',
-        diagramUrl: `${DIAGRAM_BASE}g-b-1.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Labeled diagram of acoustic guitar parts',
         quiz: [
           {
@@ -65,7 +63,7 @@ export const INSTRUMENT_DATA = {
           'Your picking hand should float over the soundhole for an acoustic guitar or over the pickups for an electric guitar. Maintain gentle tension and avoid gripping too tightly.'
         ],
         videoUrl: 'https://www.youtube.com/embed/jq0ZAc97cAY',
-        diagramUrl: `${DIAGRAM_BASE}g-b-2.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1498038432885-c6f3f1b912ee?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Proper guitar holding technique and hand placement',
         quiz: [
           {
@@ -100,7 +98,7 @@ export const INSTRUMENT_DATA = {
           'Practice switching between two chords at a time, then build speed. Smooth transitions are more important than playing fast at first.'
         ],
         videoUrl: 'https://www.youtube.com/embed/TygIhcR5rgY',
-        diagramUrl: `${DIAGRAM_BASE}g-b-3.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1525201548942-d8732f6617a0?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Guitar chord diagrams for beginner open chords',
         quiz: [
           {
@@ -137,7 +135,7 @@ export const INSTRUMENT_DATA = {
           'Focus on finger strength, keeping the thumb centered behind the neck. Light muting or pain can be relieved by gradual practice and correct hand position.'
         ],
         videoUrl: 'https://www.youtube.com/embed/Hv1Yae75BGI',
-        diagramUrl: `${DIAGRAM_BASE}g-i-1.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Barre chord fingering and positioning guide',
         quiz: [
           {
@@ -172,7 +170,7 @@ export const INSTRUMENT_DATA = {
           'Memorizing the shape and its root notes gives you the freedom to improvise. Play the same shape in different positions to hear how the scale changes with each key.'
         ],
         videoUrl: 'https://www.youtube.com/embed/-X84GG06g-c',
-        diagramUrl: `${DIAGRAM_BASE}g-i-2.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1498038432885-c6f3f1b912ee?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Pentatonic scale patterns on the guitar fretboard',
         quiz: [
           {
@@ -207,7 +205,7 @@ export const INSTRUMENT_DATA = {
           'Combine quarter notes, eighth notes, and syncopation gradually. Start slow, then increase tempo as your hand coordination improves.'
         ],
         videoUrl: 'https://www.youtube.com/embed/zi6CRi0SXLM',
-        diagramUrl: `${DIAGRAM_BASE}g-i-3.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1525201548942-d8732f6617a0?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Guitar strumming pattern notation and rhythm guide',
         quiz: [
           {
@@ -244,7 +242,7 @@ export const INSTRUMENT_DATA = {
           'Learn a basic Travis picking pattern and practice slowly until each note rings clearly. This style is common in folk, pop, and acoustic arrangements.'
         ],
         videoUrl: 'https://www.youtube.com/embed/NDng4Duv1WA',
-        diagramUrl: `${DIAGRAM_BASE}g-a-1.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Fingerstyle technique with bass and melody separation',
         quiz: [
           {
@@ -279,7 +277,7 @@ export const INSTRUMENT_DATA = {
           'Practice switching between these shapes and standard major chords. Listen for the brighter or more open sound that each extended chord creates.'
         ],
         videoUrl: 'https://www.youtube.com/embed/epYhXkgqusA',
-        diagramUrl: `${DIAGRAM_BASE}g-a-2.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1498038432885-c6f3f1b912ee?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Chord diagrams for sus2, sus4, and add9 guitar shapes',
         quiz: [
           {
@@ -314,7 +312,7 @@ export const INSTRUMENT_DATA = {
           'Use dynamics and note length to create tension and release. Start in a comfortable key and gradually explore outside notes once confidence grows.'
         ],
         videoUrl: 'https://www.youtube.com/embed/3KQQrfOYL3M',
-        diagramUrl: `${DIAGRAM_BASE}g-a-3.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1525201548942-d8732f6617a0?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Improvisation strategy for guitar phrasing and melody',
         quiz: [
           {
@@ -353,7 +351,7 @@ export const INSTRUMENT_DATA = {
           'Understanding the layout enables you to play scales, chords, and melodies with confidence. Start by identifying C major and A minor positions using white keys only.'
         ],
         videoUrl: 'https://www.youtube.com/embed/4SXQ_wlbWog',
-        diagramUrl: `${DIAGRAM_BASE}p-b-1.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Piano keyboard layout with middle C highlighted',
         quiz: [
           {
@@ -388,7 +386,7 @@ export const INSTRUMENT_DATA = {
           'Practice five-finger exercises on both hands separately. This trains strength and coordination before moving on to more complex pieces.'
         ],
         videoUrl: 'https://www.youtube.com/embed/tEtukfFv3Wk',
-        diagramUrl: `${DIAGRAM_BASE}p-b-2.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1552422535-c45813c61732?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Finger numbering for piano technique',
         quiz: [
           {
@@ -423,7 +421,7 @@ export const INSTRUMENT_DATA = {
           'Repeat the song several times, focusing on steady tempo and consistent fingerings. Small, regular practice sessions yield better results than a single long session.'
         ],
         videoUrl: 'https://www.youtube.com/embed/1qcqdpjbBCA',
-        diagramUrl: `${DIAGRAM_BASE}p-b-3.svg`,
+        diagramUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/PianoKeyboard.svg',
         diagramCaption: 'Simple piano song notation and finger guide',
         quiz: [
           {
@@ -460,7 +458,7 @@ export const INSTRUMENT_DATA = {
           'Practice C, G, Am, and F chord shapes. Moving between these chords makes up many popular progressions and is essential for playing contemporary songs.'
         ],
         videoUrl: 'https://www.youtube.com/embed/mSlMzIJwypU',
-        diagramUrl: `${DIAGRAM_BASE}p-i-1.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Piano chord patterns for major and minor harmony',
         quiz: [
           {
@@ -495,7 +493,7 @@ export const INSTRUMENT_DATA = {
           'Practice simple exercises that alternate between both clefs. This helps connect visual notation with the physical keys and improves coordination.'
         ],
         videoUrl: 'https://www.youtube.com/embed/827jmswqnEA',
-        diagramUrl: `${DIAGRAM_BASE}p-i-2.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1552422535-c45813c61732?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Treble and bass clef notation guide for piano players',
         quiz: [
           {
@@ -530,7 +528,7 @@ export const INSTRUMENT_DATA = {
           'Combine arpeggios with a melody in the right hand. The result can sound full and dynamic without requiring advanced harmony.'
         ],
         videoUrl: 'https://www.youtube.com/embed/cJtHMeDeJ2I',
-        diagramUrl: `${DIAGRAM_BASE}p-i-3.svg`,
+        diagramUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/PianoKeyboard.svg',
         diagramCaption: 'Arpeggio patterns for piano broken chords',
         quiz: [
           {
@@ -567,7 +565,7 @@ export const INSTRUMENT_DATA = {
           'Voice leading is improved by choosing inversions that minimize hand movement. This technique is common in pop and classical piano arrangements.'
         ],
         videoUrl: 'https://www.youtube.com/embed/1C_h9Ks0bz4',
-        diagramUrl: `${DIAGRAM_BASE}p-a-1.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1520523839897-bd0b52f945a0?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Chord inversion diagrams for smooth piano transitions',
         quiz: [
           {
@@ -602,7 +600,7 @@ export const INSTRUMENT_DATA = {
           'Use a metronome to maintain rhythm and gradually increase complexity. The goal is to keep going even if mistakes happen, building confidence over time.'
         ],
         videoUrl: 'https://www.youtube.com/embed/SA2rA5T7nSI',
-        diagramUrl: `${DIAGRAM_BASE}p-a-2.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1552422535-c45813c61732?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Sight reading strategies for piano players',
         quiz: [
           {
@@ -637,7 +635,7 @@ export const INSTRUMENT_DATA = {
           'Add a simple melody over the progression to hear how harmony supports the tune. This develops musical understanding and composition skills.'
         ],
         videoUrl: 'https://www.youtube.com/embed/8lqsJeClVyA',
-        diagramUrl: `${DIAGRAM_BASE}p-a-3.svg`,
+        diagramUrl: 'https://commons.wikimedia.org/wiki/Special:FilePath/PianoKeyboard.svg',
         diagramCaption: 'Chord progression chart for songwriting and practice',
         quiz: [
           {
@@ -676,7 +674,7 @@ export const INSTRUMENT_DATA = {
           'Understanding each part helps you coordinate all limbs. Start by playing simple beats and identifying the sound of each drum and cymbal.'
         ],
         videoUrl: 'https://www.youtube.com/embed/zIjoCgeRXBQ',
-        diagramUrl: `${DIAGRAM_BASE}d-b-1.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Basic drum kit layout and component labels',
         quiz: [
           {
@@ -711,7 +709,7 @@ export const INSTRUMENT_DATA = {
           'Hold the sticks loosely enough to allow the natural bounce, but firmly enough to maintain control. This balance keeps your stroke even and reduces tension.'
         ],
         videoUrl: 'https://www.youtube.com/embed/T1AQM_c12Tw',
-        diagramUrl: `${DIAGRAM_BASE}d-b-2.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1515202913167-d9a698095ebf?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Matched grip and ergonomic drumming posture',
         quiz: [
           {
@@ -746,7 +744,7 @@ export const INSTRUMENT_DATA = {
           'Once you feel comfortable, experiment with slight variations on the bass drum or hi-hat. These small changes can make the beat feel more natural and musical.'
         ],
         videoUrl: 'https://www.youtube.com/embed/WSKl-7pjw-w',
-        diagramUrl: `${DIAGRAM_BASE}d-b-3.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1571327073757-71d13c24de30?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Basic drum beat notation and limb coordination',
         quiz: [
           {
@@ -783,7 +781,7 @@ export const INSTRUMENT_DATA = {
           'Combine ghost notes with a steady kick and hi-hat pattern. This creates a more dynamic drum part that supports the music without distracting from it.'
         ],
         videoUrl: 'https://www.youtube.com/embed/9YR_EwHzUF0',
-        diagramUrl: `${DIAGRAM_BASE}d-i-1.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Ghost note placement within drum grooves',
         quiz: [
           {
@@ -818,7 +816,7 @@ export const INSTRUMENT_DATA = {
           'Use these subdivisions in fills and grooves to create movement. Gradually blend them into your basic beat so they feel natural rather than forced.'
         ],
         videoUrl: 'https://www.youtube.com/embed/xxyew6v72W8',
-        diagramUrl: `${DIAGRAM_BASE}d-i-2.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1515202913167-d9a698095ebf?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Drum notation for common rhythm subdivisions',
         quiz: [
           {
@@ -853,7 +851,7 @@ export const INSTRUMENT_DATA = {
           'Practice ending a fill on the downbeat of the next section. This ensures the band or backing track stays synchronized with your timing.'
         ],
         videoUrl: 'https://www.youtube.com/embed/b4SPX6_kt40',
-        diagramUrl: `${DIAGRAM_BASE}d-i-3.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1571327073757-71d13c24de30?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Drum fill examples for musical transitions',
         quiz: [
           {
@@ -890,7 +888,7 @@ export const INSTRUMENT_DATA = {
           'Once the pattern feels steady, apply it to a groove with the kick, snare, and hi-hat. Polyrhythms develop your sense of timing and independence.'
         ],
         videoUrl: 'https://www.youtube.com/embed/U2p5qieK34U',
-        diagramUrl: `${DIAGRAM_BASE}d-a-1.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1519892300165-cb5542fb47c7?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Polyrhythm notation and coordination for drummers',
         quiz: [
           {
@@ -925,7 +923,7 @@ export const INSTRUMENT_DATA = {
           'Practice basic swing patterns and light accents. Brushes require subtle control, so focus on consistency rather than volume.'
         ],
         videoUrl: 'https://www.youtube.com/embed/omM7hWVR5ZA',
-        diagramUrl: `${DIAGRAM_BASE}d-a-2.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1515202913167-d9a698095ebf?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Brush drumming technique for soft jazz grooves',
         quiz: [
           {
@@ -960,7 +958,7 @@ export const INSTRUMENT_DATA = {
           'Listen to recordings and match the drummer’s dynamic choices. This skill is essential for musical sensitivity and proper band playing.'
         ],
         videoUrl: 'https://www.youtube.com/embed/2LHCG777ws8',
-        diagramUrl: `${DIAGRAM_BASE}d-a-3.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1571327073757-71d13c24de30?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Dynamic drumming guide for softer and louder playing',
         quiz: [
           {
@@ -999,7 +997,7 @@ export const INSTRUMENT_DATA = {
           'Understanding the instrument’s anatomy makes it simpler to follow chord charts and tablature. Start by identifying the bridge, soundhole, and fret markers on your ukulele.'
         ],
         videoUrl: 'https://www.youtube.com/embed/5bTE5fbxDsc',
-        diagramUrl: `${DIAGRAM_BASE}u-b-1.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1525201548942-d8732f6617a0?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Ukulele parts and standard G-C-E-A tuning',
         quiz: [
           {
@@ -1034,7 +1032,7 @@ export const INSTRUMENT_DATA = {
           'Practice switching between chords slowly, then work on common transitions like C to G and F to Am. Familiar chord changes are essential for playing songs smoothly.'
         ],
         videoUrl: 'https://www.youtube.com/embed/-I5op62VCnk',
-        diagramUrl: `${DIAGRAM_BASE}u-b-2.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Beginner ukulele chord diagrams',
         quiz: [
           {
@@ -1069,7 +1067,7 @@ export const INSTRUMENT_DATA = {
           'Maintain a steady beat and accent the first downstroke slightly. Simple variations in volume help the strumming sound more musical.'
         ],
         videoUrl: 'https://www.youtube.com/embed/tkod1S9naw4',
-        diagramUrl: `${DIAGRAM_BASE}u-b-3.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1514119412350-e174d90d280e?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Ukulele strumming motion and pattern example',
         quiz: [
           {
@@ -1106,7 +1104,7 @@ export const INSTRUMENT_DATA = {
           'Practice single-note arpeggios and moving between chord shapes. Fingerpicking opens up more gentle and expressive playing styles on the ukulele.'
         ],
         videoUrl: 'https://www.youtube.com/embed/XDqxdtd2Tr4',
-        diagramUrl: `${DIAGRAM_BASE}u-i-1.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1525201548942-d8732f6617a0?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Ukulele fingerpicking pattern with thumb and fingers',
         quiz: [
           {
@@ -1141,7 +1139,7 @@ export const INSTRUMENT_DATA = {
           'Practice moving between these variations and basic chords. They help build a more interesting accompaniment and expand your chord vocabulary.'
         ],
         videoUrl: 'https://www.youtube.com/embed/Rup9Wg2JXAU',
-        diagramUrl: `${DIAGRAM_BASE}u-i-2.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Ukulele chord variations for intermediate players',
         quiz: [
           {
@@ -1176,7 +1174,7 @@ export const INSTRUMENT_DATA = {
           'Start with well-known songs and adapt the accompaniment to match the tune. Listening to how the parts fit together is key to this intermediate skill.'
         ],
         videoUrl: 'https://www.youtube.com/embed/BKwB8FmvKHw',
-        diagramUrl: `${DIAGRAM_BASE}u-i-3.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1514119412350-e174d90d280e?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Ukulele melody and harmony coordination diagram',
         quiz: [
           {
@@ -1213,7 +1211,7 @@ export const INSTRUMENT_DATA = {
           'Practice slow patterns before speeding up, and keep your right hand relaxed. Percussive techniques can transform simple songs into more exciting arrangements.'
         ],
         videoUrl: 'https://www.youtube.com/embed/6OuV51zTce4',
-        diagramUrl: `${DIAGRAM_BASE}u-a-1.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1525201548942-d8732f6617a0?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Percussive ukulele techniques using slaps and taps',
         quiz: [
           {
@@ -1248,7 +1246,7 @@ export const INSTRUMENT_DATA = {
           'Work on simple tunes first, then gradually add more harmonic detail. Proper voicing ensures the melody remains clear while the harmony supports it.'
         ],
         videoUrl: 'https://www.youtube.com/embed/TAQUz7yfyds',
-        diagramUrl: `${DIAGRAM_BASE}u-a-2.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Chord melody technique for ukulele solo playing',
         quiz: [
           {
@@ -1283,7 +1281,7 @@ export const INSTRUMENT_DATA = {
           'Experiment with changing from 4/4 to 3/4 or adding a measure of rest. These rhythmic changes make songs feel fresh and add musical tension.'
         ],
         videoUrl: 'https://www.youtube.com/embed/O5Tt7ELEOcQ',
-        diagramUrl: `${DIAGRAM_BASE}u-a-3.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1514119412350-e174d90d280e?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Ukulele syncopation and meter change examples',
         quiz: [
           {
@@ -1322,7 +1320,7 @@ export const INSTRUMENT_DATA = {
           'Check the bridge and strings carefully before each session. Proper setup ensures the instrument stays in tune and responds evenly across all four strings.'
         ],
         videoUrl: 'https://www.youtube.com/embed/tty1MswuD78',
-        diagramUrl: `${DIAGRAM_BASE}v-b-1.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1465821185615-20b3c2fbf41b?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Violin parts and bow setup guide',
         quiz: [
           {
@@ -1357,7 +1355,7 @@ export const INSTRUMENT_DATA = {
           'Keep the right hand and wrist relaxed while holding the bow. Good posture prevents fatigue and improves control during longer practice sessions.'
         ],
         videoUrl: 'https://www.youtube.com/embed/K4SbVKA5JHw',
-        diagramUrl: `${DIAGRAM_BASE}v-b-2.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1519683109079-d5f539e1542f?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Violin holding position with chin rest and hand placement',
         quiz: [
           {
@@ -1392,7 +1390,7 @@ export const INSTRUMENT_DATA = {
           'Practice simple patterns on one string at a time, listening carefully to pitch changes. Developing a good ear early makes intonation easier later on.'
         ],
         videoUrl: 'https://www.youtube.com/embed/GYSqIXuTnjM',
-        diagramUrl: `${DIAGRAM_BASE}v-b-3.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1612225330812-01a9c6b355ec?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Violin open string and first finger positions',
         quiz: [
           {
@@ -1429,7 +1427,7 @@ export const INSTRUMENT_DATA = {
           'Maintain a relaxed wrist and arm while bowing. Tension in the arm can create a scratchy tone, while fluid motion results in smoother sound.'
         ],
         videoUrl: 'https://www.youtube.com/embed/D4OOD2Z0c4U',
-        diagramUrl: `${DIAGRAM_BASE}v-i-1.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1465821185615-20b3c2fbf41b?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Straight bowing mechanics for consistent violin tone',
         quiz: [
           {
@@ -1464,7 +1462,7 @@ export const INSTRUMENT_DATA = {
           'Scales build finger strength and train your ear to recognize correct pitch. They also make shifting to higher positions easier later on.'
         ],
         videoUrl: 'https://www.youtube.com/embed/vlHpWvsW040',
-        diagramUrl: `${DIAGRAM_BASE}v-i-2.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1519683109079-d5f539e1542f?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Violin first position scale finger placement',
         quiz: [
           {
@@ -1499,7 +1497,7 @@ export const INSTRUMENT_DATA = {
           'Pay attention to dynamics and phrasing. Even basic exercises can sound musical when played with care and intention.'
         ],
         videoUrl: 'https://www.youtube.com/embed/954xC5JrTrU',
-        diagramUrl: `${DIAGRAM_BASE}v-i-3.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1612225330812-01a9c6b355ec?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Violin etude practice for technique and musicality',
         quiz: [
           {
@@ -1536,7 +1534,7 @@ export const INSTRUMENT_DATA = {
           'Practice shifting slowly, using a reference note before and after the move. This builds confidence and avoids sudden changes in intonation.'
         ],
         videoUrl: 'https://www.youtube.com/embed/GN4JK71eALg',
-        diagramUrl: `${DIAGRAM_BASE}v-a-1.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1465821185615-20b3c2fbf41b?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Violin position shift guide for ascending the fingerboard',
         quiz: [
           {
@@ -1571,7 +1569,7 @@ export const INSTRUMENT_DATA = {
           'Practice vibrato on one note first, then apply it to longer phrases. A steady, even vibrato enhances the musical line without overpowering it.'
         ],
         videoUrl: 'https://www.youtube.com/embed/ccB251rd8uo',
-        diagramUrl: `${DIAGRAM_BASE}v-a-2.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1519683109079-d5f539e1542f?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Violin vibrato technique with wrist motion',
         quiz: [
           {
@@ -1606,7 +1604,7 @@ export const INSTRUMENT_DATA = {
           'Pay attention to the contour of the melody and the emotional direction of the phrase. Expressive playing brings the piece to life beyond the written notes.'
         ],
         videoUrl: 'https://www.youtube.com/embed/tQDx2FlfAZY',
-        diagramUrl: `${DIAGRAM_BASE}v-a-3.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1612225330812-01a9c6b355ec?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Violin phrasing and expressive playing guide',
         quiz: [
           {
@@ -1645,7 +1643,7 @@ export const INSTRUMENT_DATA = {
           'Proper bass setup and tuning are essential for clean low-end tone. Check the action and intonation regularly to ensure each note rings clearly.'
         ],
         videoUrl: 'https://www.youtube.com/embed/7anFuDXV2j8',
-        diagramUrl: `${DIAGRAM_BASE}b-b-1.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1485278537138-4e8911a13c02?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Bass guitar anatomy with strings and pickup layout',
         quiz: [
           {
@@ -1680,7 +1678,7 @@ export const INSTRUMENT_DATA = {
           'Practice simple one-string patterns and focus on connecting notes evenly. This builds the foundation for groove and timing.'
         ],
         videoUrl: 'https://www.youtube.com/embed/xyRQfqaSaOc',
-        diagramUrl: `${DIAGRAM_BASE}b-b-2.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1556449895-a33c9dba33dd?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Bass fingerstyle technique with alternating fingers',
         quiz: [
           {
@@ -1715,7 +1713,7 @@ export const INSTRUMENT_DATA = {
           'Practice root note patterns with common progressions such as I-IV-V. This makes it easier to follow changes and keep the band together rhythmically.'
         ],
         videoUrl: 'https://www.youtube.com/embed/Q-y7lh9rviE',
-        diagramUrl: `${DIAGRAM_BASE}b-b-3.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1550985616-10810253b84d?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Bass root note and arpeggio patterns for groove',
         quiz: [
           {
@@ -1752,7 +1750,7 @@ export const INSTRUMENT_DATA = {
           'Keep a steady quarter-note pulse and listen to the chord progression beneath you. The walking line should feel natural and guide the harmony forward.'
         ],
         videoUrl: 'https://www.youtube.com/embed/uIywVZABmeI',
-        diagramUrl: `${DIAGRAM_BASE}b-i-1.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1485278537138-4e8911a13c02?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Walking bass line examples for jazz and blues',
         quiz: [
           {
@@ -1787,7 +1785,7 @@ export const INSTRUMENT_DATA = {
           'Practice basic slap-pop patterns slowly to build timing. These techniques add energy and a distinctive groove to bass lines.'
         ],
         videoUrl: 'https://www.youtube.com/embed/EAv-au0EXCc',
-        diagramUrl: `${DIAGRAM_BASE}b-i-2.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1556449895-a33c9dba33dd?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Slap and pop bass technique illustrations',
         quiz: [
           {
@@ -1822,7 +1820,7 @@ export const INSTRUMENT_DATA = {
           'Use simple patterns first and gradually add more complex syncopated rhythms. This skill makes your bass playing feel more musical and less predictable.'
         ],
         videoUrl: 'https://www.youtube.com/embed/-6FDv8H16iU',
-        diagramUrl: `${DIAGRAM_BASE}b-i-3.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1550985616-10810253b84d?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Syncopated bass groove notation and accent placement',
         quiz: [
           {
@@ -1859,7 +1857,7 @@ export const INSTRUMENT_DATA = {
           'Focus on a steady quarter-note pulse and allow the chromatic notes to lead naturally into the next chord. This creates a sophisticated and swinging bass line.'
         ],
         videoUrl: 'https://www.youtube.com/embed/3H13FYddN28',
-        diagramUrl: `${DIAGRAM_BASE}b-a-1.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1485278537138-4e8911a13c02?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Jazz walking bass line construction with chromatic approach notes',
         quiz: [
           {
@@ -1894,7 +1892,7 @@ export const INSTRUMENT_DATA = {
           'Learn patterns that combine muted hits with open note accents. These techniques produce a rhythmic bass line that is both melodic and danceable.'
         ],
         videoUrl: 'https://www.youtube.com/embed/Yjjz_c0FINE',
-        diagramUrl: `${DIAGRAM_BASE}b-a-2.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1556449895-a33c9dba33dd?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Advanced slap bass patterns with ghost notes and muted rhythms',
         quiz: [
             {
@@ -1929,7 +1927,7 @@ export const INSTRUMENT_DATA = {
           'Use dynamics to shape phrases, playing some notes stronger and others softer. This keeps your bass line expressive and helps it sit well in the mix.'
         ],
         videoUrl: 'https://www.youtube.com/embed/k4eeqBoWGuY',
-        diagramUrl: `${DIAGRAM_BASE}b-a-3.svg`,
+        diagramUrl: 'https://images.unsplash.com/photo-1550985616-10810253b84d?auto=format&fit=crop&w=900&q=80',
         diagramCaption: 'Bass tone shaping with hand position and EQ control',
         quiz: [
           {
