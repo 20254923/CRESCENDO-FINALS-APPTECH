@@ -1,6 +1,10 @@
 import { useNavigate } from 'react-router-dom';
 import { INSTRUMENTS } from '../data/data.js';
-import { getStudentProgressSummary, getStudentRank } from '../utils/progress.js';
+import {
+  getLearningEvidenceStats,
+  getStudentProgressSummary,
+  getStudentRank,
+} from '../utils/progress.js';
 
 const instrumentImages = {
   guitar: 'https://images.unsplash.com/photo-1510915361894-db8b60106cb1?auto=format&fit=crop&w=900&q=80',
@@ -15,6 +19,13 @@ export default function HomePage() {
   const navigate = useNavigate();
   const progress = getStudentProgressSummary();
   const rank = getStudentRank();
+  const evidence = getLearningEvidenceStats();
+  const platformStats = [
+    { value: progress.total, label: 'Verified lessons' },
+    { value: evidence.savedNotes, label: 'Saved notes' },
+    { value: evidence.quizAttempts, label: 'Quiz history' },
+    { value: 'Yes', label: evidence.accountMode },
+  ];
 
   return (
     <section className="home-page page-stack">
@@ -45,6 +56,34 @@ export default function HomePage() {
           </div>
         </div>
       </header>
+
+      <section className="evidence-strip glass-card" aria-label="Platform feature proof">
+        <div>
+          <p className="eyebrow">Assessment Evidence</p>
+          <h2>React features you can demonstrate live.</h2>
+        </div>
+        <div className="evidence-grid">
+          {platformStats.map((stat) => (
+            <article key={stat.label} className="evidence-card">
+              <strong>{stat.value}</strong>
+              <span>{stat.label}</span>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className="tech-framing glass-card">
+        <div>
+          <p className="eyebrow">Emerging Technology Framing</p>
+          <h2>Personalized music learning as educational technology.</h2>
+        </div>
+        <p>
+          Crescendo connects to emerging technologies through adaptive digital learning,
+          learner analytics, and self-paced skill platforms. Each account keeps separate
+          progress, notes, quiz results, and unlock states so students can see how data
+          driven feedback improves practice decisions.
+        </p>
+      </section>
 
       <div className="instrument-grid">
         {INSTRUMENTS.map((instrument) => (

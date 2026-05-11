@@ -215,6 +215,31 @@ export function getStudentProgressSummary() {
   };
 }
 
+export function getLearningEvidenceStats() {
+  const progress = loadProgress();
+
+  return INSTRUMENTS.reduce(
+    (stats, instrument) => {
+      const instrumentProgress = progress[instrument.id] || {};
+      const notes = instrumentProgress.lessonNotes || {};
+      const quizHistory = instrumentProgress.quizHistory || {};
+
+      stats.savedNotes += Object.values(notes).filter((note) => note?.trim()).length;
+      stats.quizAttempts += Object.values(quizHistory).reduce(
+        (sum, attempts) => sum + (Array.isArray(attempts) ? attempts.length : 0),
+        0
+      );
+
+      return stats;
+    },
+    {
+      savedNotes: 0,
+      quizAttempts: 0,
+      accountMode: 'Per-account progress',
+    }
+  );
+}
+
 export function getStudentRank() {
   const { done, total } = getStudentProgressSummary();
   const percent = total ? done / total : 0;
